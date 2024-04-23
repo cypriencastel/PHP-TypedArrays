@@ -1,7 +1,6 @@
 {
     "name": "cypriencastel/php-typed-arrays",
     "type": "library",
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Cypriencastel\\TypedArrays\\": "src/"
@@ -13,5 +12,7 @@
             "email": "cypriencastel@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.0"
+    }
 }
