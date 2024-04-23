@@ -1,9 +1,10 @@
 {
     "name": "cypriencastel/php-typed-arrays",
     "type": "library",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Cypriencastel\\PhpTypedArrays\\": "src/"
+            "Cypriencastel\\TypedArrays\\": "src/"
         }
     },
     "authors": [
