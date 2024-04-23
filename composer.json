@@ -1,0 +1,16 @@
+{
+    "name": "cypriencastel/php-typed-arrays",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Cypriencastel\\PhpTypedArrays\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cyprien Castel",
+            "email": "cypriencastel@gmail.com"
+        }
+    ],
+    "require": {}
+}
