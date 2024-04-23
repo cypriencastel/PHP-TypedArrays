@@ -29,10 +29,12 @@ abstract class TypedArray implements ArrayAccess
 
     public function offsetSet(mixed $offset, mixed $value): void
     {
-        if (is_null($offset)) {
-            $this->items[] = $value;
-        } else {
-            $this->items[$offset] = $value;
+        if ($this->satisfies($value)) {
+            if (is_null($offset)) {
+                $this->items[] = $value;
+            } else {
+                $this->items[$offset] = $value;
+            }
         }
     }
 
